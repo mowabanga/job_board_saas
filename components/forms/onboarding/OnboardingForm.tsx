@@ -22,7 +22,7 @@ export function OnboardingForm() {
                 return <UserTypeForm onSelect={handleUserTypeSelection}/>
 
             case 2:
-                return userType === "company" ? <CompanyForm /> : <p>User is a job seeker</p>
+                return userType === "company" ? <CompanyForm /> : <p>Freelancer</p>
 
             default:
                 return null;
