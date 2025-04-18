@@ -36,7 +36,7 @@ model Company {
   name String
   location String
   about String
-  logo String
+  logo String?
   website String
   xAccount String?
 
